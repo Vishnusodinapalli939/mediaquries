@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        width: 10vw;
+        height: 20vh;
+        border: 2px solid red;
+      }
+      @media screen and (min-width: 320px) and (max-width: 375px) {
+        h2 {
+          color: red;
+        }
+        img {
+          border: 2px solid orange;
+          padding: 10px;
+          height: 60px;
+          background-color: aqua;
+        }
+        .div2,.div3{
+            display: none;
+        }
+      }
+      @media screen and (min-width: 375px) and (max-width: 765px) {
+        img {
+            border: 2px solid skyblue;
+          padding: 10px;
+          height: 60px;
+          background-color:palevioletred;
+        }
+        h2 {
+            color:blue;
+        }
+        .div1,.div3{
+            display:none;
+        }
+      }
+      @media screen and (min-width:765px) and (max-width:1024px){
+        img {
+          border: 2px solid crimson;
+          padding: 10px;
+          height: 60px;
+          background-color: blueviolet;
+        }
+        .div1,.div2{
+              display:none;
+        }
+        h2 {
+            color:darkturquoise
+      }
+    }
+      /* .hover:hover{
+        background-color: crimson;
+        color: aquamarine; */
+    </style>
+  </head>
+  <body>
+    <!-- <h2 class="hover">hover effect</h2> -->
+    <div class="div1">
+      <h2>2*2 Gallery</h2>
+      <img src="./iframe/chopra.jpg" />
+      <img src="./iframe/genelia.jpg" /><br />
+      <img src="./iframe/ileana.jpg" />
+      <img src="./iframe/kiara.jpg" />
+    </div><br>
+    <div class="div2">
+      <h2>3*3 GALLERY</h2>
+      <img src="./iframe/chopra.jpg" />
+      <img src="./iframe/genelia.jpg" />
+      <img src="./iframe/ileana.jpg" /><br />
+      <img src="./iframe/kiara.jpg" />
+      <img src="./iframe/keerthi.jpg"/>
+      <img src="./iframe/shradha.jpg"/><br>
+      <img src="./iframe/genelia.jpg"/>
+      <img src="./iframe/priyanka.jpg"/>
+      <img src="./iframe/chopra.jpg"/>
+    </div>
+    <br>
+    <div class="div3">
+        <h2>4*4 GALLERY</h2>
+        <img src="./iframe/chopra.jpg" />
+        <img src="./iframe/genelia.jpg" />
+        <img src="./iframe/priyanka.jpg"/>
+        <img src="./iframe/ileana.jpg" /><br />
+        <img src="./iframe/kiara.jpg" />
+        <img src="./iframe/shradha.jpg"/>
+        <img src="./iframe/keerthi.jpg"/>
+        <img src="./iframe/chopra.jpg"/><br>
+        <img src="./iframe/genelia.jpg"/>
+        <img src="./iframe/priyanka.jpg"/>
+        <img src="./iframe/ileana.jpg"/>
+        <img src="./iframe/kiara.jpg"/><br>
+        <img src="./iframe/keerthi.jpg"/>
+        <img src="./iframe/chopra.jpg"/>
+        <img src="./iframe/genelia.jpg"/>
+        <img src="./iframe/shradha.jpg"/>
+    </div>
+  </body>
+</html>
